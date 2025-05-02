@@ -1,0 +1,38 @@
+[gd_scene load_steps=10 format=3 uid="uid://b3ot8m0mp67fx"]
+
+[ext_resource type="Script" uid="uid://dmwwr0ieikl25" path="res://scripts/pecas.gd" id="1_i1c38"]
+[ext_resource type="Texture2D" uid="uid://ckdincbu7vpbn" path="res://sprites/1.jpg" id="2_blhhh"]
+[ext_resource type="Texture2D" uid="uid://dkfssqfmgtu4" path="res://sprites/2.jpg" id="3_upolc"]
+[ext_resource type="Texture2D" uid="uid://tnqqrf7ihytj" path="res://sprites/3.jpg" id="4_44nbn"]
+[ext_resource type="Texture2D" uid="uid://6uunoleybfqp" path="res://sprites/4.jpg" id="5_ohtye"]
+[ext_resource type="Texture2D" uid="uid://cr84lxr6nsiqr" path="res://sprites/5.jpg" id="6_4502u"]
+[ext_resource type="Texture2D" uid="uid://b6drm0xnet8lq" path="res://sprites/6.jpg" id="7_ecbvd"]
+[ext_resource type="Texture2D" uid="uid://b88ta6685h151" path="res://sprites/7.jpg" id="8_oa03l"]
+[ext_resource type="Texture2D" uid="uid://cyw851j5k1rf0" path="res://sprites/8.jpg" id="9_erjfx"]
+
+[node name="Pecas" type="Node2D"]
+script = ExtResource("1_i1c38")
+
+[node name="peca1" type="Sprite2D" parent="."]
+texture = ExtResource("2_blhhh")
+
+[node name="peca2" type="Sprite2D" parent="."]
+texture = ExtResource("3_upolc")
+
+[node name="peca3" type="Sprite2D" parent="."]
+texture = ExtResource("4_44nbn")
+
+[node name="peca4" type="Sprite2D" parent="."]
+texture = ExtResource("5_ohtye")
+
+[node name="peca5" type="Sprite2D" parent="."]
+texture = ExtResource("6_4502u")
+
+[node name="peca6" type="Sprite2D" parent="."]
+texture = ExtResource("7_ecbvd")
+
+[node name="peca7" type="Sprite2D" parent="."]
+texture = ExtResource("8_oa03l")
+
+[node name="peca8" type="Sprite2D" parent="."]
+texture = ExtResource("9_erjfx")

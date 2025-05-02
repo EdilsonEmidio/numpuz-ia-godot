@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://crtfqbpb41f2y"]
+
+[ext_resource type="Script" uid="uid://c31ogeirmrk64" path="res://scripts/main.gd" id="1_mtgg2"]
+[ext_resource type="Script" uid="uid://b33of258xvale" path="res://scripts/camera_2d.gd" id="2_t4ukd"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_mtgg2")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(581, 323)
+script = ExtResource("2_t4ukd")
