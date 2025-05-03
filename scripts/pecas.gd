@@ -23,7 +23,11 @@ func posicao_grade(i: int) -> Vector2:
 func gerar(input: Array):
 	pecas = get_children()
 	for i in 8:
+		var remover = input[i]
 		pecas[i].position = posicao_grade(input[i])
+		posicoes_livres.erase(remover)
+		pecas[i].origem = posicoes[i]
+		pecas[i].numero = i+1
 		
 func gerar_aleatorio():
 	pecas = get_children()
@@ -32,3 +36,5 @@ func gerar_aleatorio():
 		var posicao = posicoes_livres[rand]
 		posicoes_livres.remove_at(rand)
 		pecas[i].position = posicao_grade(posicao)
+		pecas[i].origem = posicoes[i]
+		pecas[i].numero = i+1

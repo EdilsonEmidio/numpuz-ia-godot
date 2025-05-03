@@ -1,11 +1,42 @@
-[gd_scene load_steps=3 format=3 uid="uid://crtfqbpb41f2y"]
+[gd_scene load_steps=4 format=3 uid="uid://crtfqbpb41f2y"]
 
 [ext_resource type="Script" uid="uid://c31ogeirmrk64" path="res://scripts/main.gd" id="1_mtgg2"]
 [ext_resource type="Script" uid="uid://b33of258xvale" path="res://scripts/camera_2d.gd" id="2_t4ukd"]
+[ext_resource type="Script" uid="uid://5tkmedio1l2a" path="res://scripts/botoes.gd" id="3_4fhxt"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_mtgg2")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(581, 323)
+position = Vector2(581, 549)
+zoom = Vector2(0.5, 0.5)
 script = ExtResource("2_t4ukd")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("3_4fhxt")
+
+[node name="comeco" type="Button" parent="CanvasLayer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -224.0
+offset_bottom = 77.0
+grow_horizontal = 0
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 50
+text = "COMEÇO"
+
+[node name="final" type="Button" parent="CanvasLayer"]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -149.0
+offset_top = -107.0
+offset_bottom = -30.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 50
+text = "FINAL"

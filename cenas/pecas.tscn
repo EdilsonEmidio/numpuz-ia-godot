@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://b3ot8m0mp67fx"]
+[gd_scene load_steps=11 format=3 uid="uid://b3ot8m0mp67fx"]
 
 [ext_resource type="Script" uid="uid://dmwwr0ieikl25" path="res://scripts/pecas.gd" id="1_i1c38"]
 [ext_resource type="Texture2D" uid="uid://ckdincbu7vpbn" path="res://sprites/1.jpg" id="2_blhhh"]
+[ext_resource type="Script" uid="uid://f2hfe3nfstev" path="res://scripts/dados.gd" id="3_44nbn"]
 [ext_resource type="Texture2D" uid="uid://dkfssqfmgtu4" path="res://sprites/2.jpg" id="3_upolc"]
 [ext_resource type="Texture2D" uid="uid://tnqqrf7ihytj" path="res://sprites/3.jpg" id="4_44nbn"]
 [ext_resource type="Texture2D" uid="uid://6uunoleybfqp" path="res://sprites/4.jpg" id="5_ohtye"]
@@ -15,24 +16,32 @@ script = ExtResource("1_i1c38")
 
 [node name="peca1" type="Sprite2D" parent="."]
 texture = ExtResource("2_blhhh")
+script = ExtResource("3_44nbn")
 
 [node name="peca2" type="Sprite2D" parent="."]
 texture = ExtResource("3_upolc")
+script = ExtResource("3_44nbn")
 
 [node name="peca3" type="Sprite2D" parent="."]
 texture = ExtResource("4_44nbn")
+script = ExtResource("3_44nbn")
 
 [node name="peca4" type="Sprite2D" parent="."]
 texture = ExtResource("5_ohtye")
+script = ExtResource("3_44nbn")
 
 [node name="peca5" type="Sprite2D" parent="."]
 texture = ExtResource("6_4502u")
+script = ExtResource("3_44nbn")
 
 [node name="peca6" type="Sprite2D" parent="."]
 texture = ExtResource("7_ecbvd")
+script = ExtResource("3_44nbn")
 
 [node name="peca7" type="Sprite2D" parent="."]
 texture = ExtResource("8_oa03l")
+script = ExtResource("3_44nbn")
 
 [node name="peca8" type="Sprite2D" parent="."]
 texture = ExtResource("9_erjfx")
+script = ExtResource("3_44nbn")

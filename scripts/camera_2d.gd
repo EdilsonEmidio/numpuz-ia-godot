@@ -1,6 +1,6 @@
 extends Camera2D
 
-var velocidade = 500
+var velocidade = 1000
 
 func calc_direcao() -> Vector2:
 	var direcao = Vector2(0,0)
